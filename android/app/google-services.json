@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1078330299403",
+    "firebase_url": "https://mysharepal-40.firebaseio.com",
+    "project_id": "mysharepal-40",
+    "storage_bucket": "mysharepal-40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078330299403:android:7c34800b3d07ebd584230e",
+        "android_client_info": {
+          "package_name": "mysharepal40.com.my_share_pal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078330299403-uronmvi0u0v62ikcc12j1r5ihv9ppf51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mysharepal40.com.my_share_pal",
+            "certificate_hash": "615956b6f2f344c0febd6e4cbc4e06b9eb7fafdd"
+          }
+        },
+        {
+          "client_id": "1078330299403-3k3kg6vpt0t1s842o5tikei3l1hrhuiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc_IR9eiya-lmJif-p0PYJVqPKX_o2R_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078330299403-3k3kg6vpt0t1s842o5tikei3l1hrhuiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

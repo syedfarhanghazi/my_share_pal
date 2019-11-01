@@ -1,0 +1,101 @@
+name: my_share_pal
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  dots_indicator: ^1.0.0
+  shared_preferences: ^0.5.3+4
+  firebase_auth: ^0.14.0+5
+  cloud_firestore: ^0.12.9+5
+  image_picker: ^0.6.1+8
+  firebase_storage: ^3.0.6
+  random_string: ^1.1.0
+  url_launcher: ^5.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/logo.png
+    - images/icon.png
+    - images/menu.png
+    - images/arrow.png
+    - images/circle.png
+    - images/add.png
+    - images/user.png
+    - images/location.png
+    - images/lock.png
+    - images/email.png
+    - images/call.png
+    - images/cross.png
+    - images/greencircle.png
+    - images/next.png
+    - images/back.png
+    - images/home.png
+    - images/chat.png
+    - images/settings.png
+    - images/edit.png
+    - images/contact.png
+    - images/user_big.png
+    - images/logout.png
+    - images/privacy.png
+    - images/terms.png
+    - images/open.png
+    - images/send.png
+    - images/sort.png
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: fonts/Rubik-Regular.ttf
+          weight: 400
+        - asset: fonts/Rubik-Medium.ttf
+          weight: 500
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
